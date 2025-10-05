@@ -1,0 +1,24 @@
+{
+  "name": "loan-calculator-rn",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --port 5000",
+    "android": "expo start --android --port 5000",
+    "ios": "expo start --ios --port 5000",
+    "web": "expo start --web --port 5000"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.11.2",
+    "expo": "~54.0.12",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-progress": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
